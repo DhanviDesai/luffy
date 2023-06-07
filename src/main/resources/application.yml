@@ -1,0 +1,6 @@
+luffyConfig:
+  name: luffy-service
+  endpoint: ${LUFFY_SERVICE_ENDPOINT}
+  servicePool: luffyPool
+  uris:
+    post.auth.validate: /v1/person/validate
